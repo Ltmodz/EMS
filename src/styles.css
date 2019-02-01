@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+*
+{
+    box-sizing: border-box;
+}
+
+@font-face
+{
+    font-family: 'Tajawal';
+    src: url("./assets/fonts/Tajawal-Regular.ttf");
+}
+
+
+
+body,html
+{
+    width: 100vw;
+    height: 100vh;
+    padding:0;
+    margin: 0;
+    font-family: 'Tajawal';
+    font-size: 1.3vw;
+}
+
+
+.input-field
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input-field>label
+{
+display: block;
+margin-bottom: 10px;
+
+}
+.input-field>input
+{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bdc3c7;
+    padding: 10px;
+    font-family: 'Tajawal';
+    width: 100%;
+    transition: 0.1s;
+}
+.input-field>input:focus
+{
+    border-color: #80bdff;
+    box-shadow:0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.btn
+{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 4px 6px 2px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 20px;
+    font-family: 'Tajawal';
+    border-style: solid;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn-primary
+{
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+.btn-primary:hover
+{
+    background-color: #20618d;
+    border-color: #20618d;
+}
+
+
+

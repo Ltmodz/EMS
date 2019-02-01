@@ -1,0 +1,38 @@
+.login-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+.auth-image
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../../assets/images/login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.auth-form
+{
+    padding: 10%;
+}
+
+.auth-form-title
+{
+    display: flex;
+    align-items:center;
+}
+
+.auth-form-title img
+{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 1vw;
+
+}
+.auth-form-title h3
+{
+    display: inline-block;
+}
