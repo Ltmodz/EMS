@@ -1,6 +1,13 @@
+@import "./assets/vendors/fontawesome/css/all.css";
+
 *
 {
     box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f8f8f8;
 }
 
 @font-face
@@ -9,6 +16,82 @@
     src: url("./assets/fonts/Tajawal-Regular.ttf");
 }
 
+@media (min-width: 1281px) {
+
+    body,html
+    {
+        font-size: 1.3vw;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    body,html
+    {
+        font-size: 1.3vw;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body,html
+    {
+        font-size: 1.5vw;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body,html
+    {
+        font-size: 1.5vw;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    body,html
+    {
+        font-size: 3vw;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    body,html
+    {
+        font-size: 3.5vw;
+    }
+  }
 
 
 body,html
@@ -18,7 +101,7 @@ body,html
     padding:0;
     margin: 0;
     font-family: 'Tajawal';
-    font-size: 1.3vw;
+
 }
 
 

@@ -1,0 +1,5 @@
+.container
+{
+    display: grid;
+    grid-template-rows: 70px calc(100vh - 90px);
+}

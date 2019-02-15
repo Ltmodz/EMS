@@ -1,0 +1,80 @@
+nav
+{
+    background-color: #fff;
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 15px;
+}
+
+.menu-button button
+{
+background: none;
+border:none;
+cursor: pointer;
+color: #8f8f8f;
+font-size: 20px;
+transform: translateY(50%) ;
+transition: 0.3s;
+}
+
+.menu-button button:hover
+{
+    color: #000;
+}
+
+.logo img
+{
+    width: 30px;
+    height: 30px;
+    display:block;
+    margin:auto;
+}
+.logo-name
+{
+    text-align: center;
+    margin: 0px;
+}
+
+.user-controls
+{
+    text-align: center;
+    position: relative;
+}
+
+.user-controls img
+{
+    width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 1px 15px rgba(0,0,0,.1), 0 1px 6px rgba(0,0,0,.1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-name
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logout
+{
+    position: absolute;
+    background: none;
+    border:none;
+    cursor: pointer;
+    color: #8f8f8f;
+    font-size: 20px;
+    transition: 0.3s;
+    transform: rotateY(180deg) translateY(-50%);
+    vertical-align: middle;
+    left: 0px;
+    top:50%;
+}
+.logout:hover
+{
+    color:#e74c3c;
+}
